@@ -1,0 +1,144 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(250, 250, 252);
+    color: #363d49;
+}
+
+header {
+    margin: 0px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 11px;
+    padding-right: 12px;
+}
+
+.header-pr4 {
+    padding-right: 4px;
+    font-weight: bold;
+}
+
+.header-dominance p:nth-child(2), p:nth-child(3), p:nth-child(5), p:nth-child(6) {
+    padding-right: 4px;
+}
+
+.header-coins, .header-market, .header-volume24, .header-dominance {
+    display: flex;
+}
+
+.header-top-left {
+    display: flex;
+}
+
+.header-top-right {
+    display: flex;
+}
+
+.header-ad {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+.wrapper {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    background-color: rgb(231, 231, 231);
+    padding: 30px;
+    margin: 10px;
+    width: 420px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closebtn {
+    border-radius: 8px;
+    margin-left: 150px;
+    font-size: 33px;
+}
+
+.wrapper img {
+    height: 28px;
+    width: 28px;
+    padding-right: 8px;
+}
+
+.wrapper p {
+    font-weight: bold;
+    padding-right: 18px;
+}
+
+.wrapper p:nth-child(3) {
+    padding-right: 2px;
+}
+
+table {
+    display: none;
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+th, td {
+    border-top: 1px solid rgb(210, 210, 210);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding-right: 120px;
+    height: 50px;
+    text-align: right;
+}
+
+th:nth-child(6), td:nth-child(6) {
+    padding-right: 12px;
+}
+
+th:nth-child(1), th:nth-child(2), td:nth-child(1), td:nth-child(2) {
+    text-align: left;
+}
+
+.table-coin-image {
+    height: 24px;
+    float: left;
+    margin-right: 8px;
+}
+
+.tableDataDivElement {
+    display: flex;
+    float: right;
+}
+
+.dark-light-mode {
+    background-color: rgb(34, 37, 49);
+    color: white;
+  }
+  
+#dark-light-mode {
+    /* button */
+    background-color: #ffffff;
+    padding: 4px;
+    margin: 4px;
+  }
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+}

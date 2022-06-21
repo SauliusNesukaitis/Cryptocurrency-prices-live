@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="table.js" defer></script>
+    <script src="dark-light-mode.js" defer></script>
+    <title>Cryptocurrency Prices</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-top-left">
+            <div class="header-coins">
+                <p class="header-pr4">Coins:</p>
+            </div>
+            <div class="header-market">
+                <p class="header-pr4">Market Cap: €</p>
+            </div>
+            <div class="header-volume24">
+                <p class="header-pr4">24h Vol %:</p>
+            </div>
+            <div class="header-dominance">
+                <p class="header-pr4">Dominance:</p>
+            </div>
+        </div>
+        <div class="header-top-right">
+            <!-- <p>Dark</p> -->
+            <button id="dark-light-mode">Dark/Light mode</button>
+
+        </div>
+    </header>
+
+    <div class="header-ad">
+        <img src="https://tpc.googlesyndication.com/simgad/16890022669036024163" alt="" id="header-ad">
+    </div>
+
+    <h1>Cryptocurrency Prices</h1>
+
+    <form>
+        <input type="text" class="input" placeholder="Search">
+        <input type="submit" class="submit">
+    </form>
+
+    <main>
+        <div class="output"></div>
+    </main>
+
+
+    <table id="table">
+
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>24h %</th>
+          <th>Market Cap</th>
+          <th>24h Volume</th>
+        </tr>
+
+        <tbody>
+
+        </tbody>
+
+      </table>
+
+      <footer>
+        <p>© 2022 Cryptocurrency Prices</p>
+      </footer>
+    
+</body>
+</html>
